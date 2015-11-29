@@ -336,6 +336,7 @@ introJs().onafterchange(function(targetElement) {
 ###Options:
 
  - `steps`: For defining steps using JSON configuration (see [this](https://github.com/usablica/intro.js/blob/master/example/programmatic/index.html) example)
+    - added timeout for each step: waits x milliseconds before go to the next step (used for scrolling inside of a div); don't use refresh if you want to wait
  - `nextLabel`: Next button label
  - `prevLabel`: Previous button label
  - `skipLabel`: Skip button label
@@ -401,6 +402,10 @@ Want to learn faster and easier? Here we have **Instant IntroJs**, Packt Publish
 </p>
 
 ## Release History
+
+ * **v1.1.2** - 2015-11-29
+   - Added timeout for steps
+   - Fix position of the element (https://github.com/usablica/intro.js/issues/210)
 
  * **v1.1.1** - 2015-09-05
    - Fix versioning issue
