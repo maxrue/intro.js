@@ -403,6 +403,9 @@ Want to learn faster and easier? Here we have **Instant IntroJs**, Packt Publish
 
 ## Release History
 
+ * **v1.1.3** - 2015-12-03
+   - Fix Position Problem in Safari
+
  * **v1.1.2** - 2015-11-29
    - Added timeout for steps
    - Fix position of the element (https://github.com/usablica/intro.js/issues/210)
